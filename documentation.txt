@@ -1,0 +1,35 @@
+Java Style Guidelines
+-------------------------------------------------------------------------------
+
+GENERAL STYLE POINTS
+
+-No character can be past the 80th line, except the newline character
+
+-Make indents 2 spaces, not tabs
+
+-Always include file headers, class headers, and method headers
+
+-Keep regular in-line comments above the code being described, not on the same
+line
+
+-------------------------------------------------------------------------------
+
+FILE HEADER GUIDELINES
+
+For the file headers, include the project, founders, copyright, empty line,
+file, description, who last edited the file, and the date of the last update.
+
+/*
+ * Project: SelfVitalize
+ * Founders: Peter Enescu, Dennis Mariano, Eric Perez
+ * Copyright © 2017
+ * 
+ * File: Sample.java
+ * Description: this is a description
+ * Last Written by: John Smith
+ * Date Last Update: October 21st, 2017
+ */
+ 
+ ------------------------------------------------------------------------------
+ 
+ 
