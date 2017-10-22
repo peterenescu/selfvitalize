@@ -5,13 +5,20 @@
  *
  * File: Habit.java
  * Description: An activity that the user plans to keep track of.
- * Last Updated By: Dennis Mariano
+ * Last Updated By: Peter Enescu
  * Date of Last Update: October 21st, 2017
+ */
+
+/*
+ * Class Habit identifies an individual Habit
  */
 public class Habit {
 
+  // name of the habit
   private String name;
+  // number of repeated goals completed
   private int repeats;
+  // if the goal has been completed
   private boolean hasCompleted;
 
   /*
@@ -56,7 +63,7 @@ public class Habit {
    * @return True if the habit was completed, false otherwise
    */
   public boolean getHasCompleted() {
-    return hasCompleted();
+    return hasCompleted;
   }
 
   /*
@@ -78,7 +85,7 @@ public class Habit {
   /*
    * Retrieve the amount of times that the Habit has been repeated.
    */
-  public void getRepeats() {
+  public int getRepeats() {
     return repeats;
   }
 }
