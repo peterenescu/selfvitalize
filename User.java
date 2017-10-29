@@ -10,8 +10,13 @@
  * Date Last Update: October 21st, 2017
  */
 
+import javax.validation.contraints.Min;
+import javax.validation.contraints.NotNull;
+import javax.validation.contraints.Size;
+
 public class User {
   // String that represents username and name itself
+  @NotNull
   private String username, name;
   
   /*
