@@ -29,7 +29,7 @@ file, description, who last edited the file, and the date of the last update.
  * File: Sample.java
  * Description: this is a description
  * Last Written by: John Smith
- * Date Last Update: October 21st, 2017
+ * Last Updated: October 21, 2017
  */
  
 -------------------------------------------------------------------------------
