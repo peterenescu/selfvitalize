@@ -12,6 +12,8 @@ GENERAL STYLE POINTS
 -Keep regular in-line comments above the code being described, not on the same
 line
 
+-Keep spaces between arithmetic symbols
+
 -------------------------------------------------------------------------------
 
 FILE HEADER GUIDELINES
@@ -30,6 +32,49 @@ file, description, who last edited the file, and the date of the last update.
  * Date Last Update: October 21st, 2017
  */
  
- ------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
  
+CLASS HEADER GUIDELINES
+
+For the class header, describe the class on the first line. Leave an empty line
+then put the author, version, and since tags.
+
+/**
+ * Class for Sample.
+ *
+ * @author John Smith
+ * @version 1.0
+ * @since October 21, 2017
+ */
+public class Sample {
+
+}
+
+-------------------------------------------------------------------------------
+
+METHOD HEADER GUIDELINES
+
+For the method headers, have a description, followed by an empty line, param
+tags, return tag, and throws tag if applicable.
+
+/**
+ * Class for Sample.
+ *
+ * @author John Smith
+ * @version 1.0
+ * @since October 21, 2017
+ */
+public class Sample {
  
+  /**
+   * Returns the number of elements.
+   *
+   * @param input the number entered
+   * @return the new size
+   */
+  public int getSize(int input) {
+    return 5 * size;
+  }
+}
+
+-------------------------------------------------------------------------------
