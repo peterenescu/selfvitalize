@@ -6,7 +6,7 @@
  * File: Application.java
  * Description: Application Runner
  * Last Written by: Peter Enescu 
- * Date Last Update: October 28st, 2017
+ * Last Updated: October 28, 2017
  */
 
 import org.springframework.boot.SpringApplication;
